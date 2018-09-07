@@ -120,8 +120,8 @@ public class aratmaEkrani extends Fragment {
     private static final String ANDROID_CERT_HEADER = "X-Android-Cert";
     private static final String ANDROID_PACKAGE_HEADER = "X-Android-Package";
     private static final String TAG = MainActivity.class.getSimpleName();
-    private static final String API_KEY="AIzaSyC0ggQRjwYN6f0xsHb9BbzQLCH7XIJ6m9A";
-    private static final String API_KEY2="AIzaSyBeAHfpeLSCX7xvaukf7u9q2WsRmbIg0sE";
+    private static final String API_KEY="google api key";
+    private static final String API_KEY2="google api key";
 
     private  String[] metinler;
     private String[] months={"Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"};
