@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Fotorat</string>
     <string name="title_activity_tutorial_screens">tutorialScreens</string>
-    <string name="facebook_app_id">235776506964466</string>
-    <string name="facebook_login_protocol_scheme">fb235776506964466</string>
+    <string name="facebook_app_id">FACEBOOK APP ID</string>
+    <string name="facebook_login_protocol_scheme">fb# FACEBOOK APP ID #</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="transition_image">transition_image</string>
