@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#273833</color>
+    <color name="black">#000</color>
+    <color name="lightorange">#fdf2df</color>
+    <color name="lightorangedark">#ebd6ab</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+
+    <color name="menuPrimary">#795548</color>
+    <color name="menuPrimaryDark">#5D4037</color>
+    <color name="menuDarkGrey">#6c6c6c</color>
+
+    <color name="color1">#ff0000</color>
+    <color name="color2">#00ff00</color>
+    <color name="color4">#3888a3</color>
+
+    <color name="sky_blue_color">#007aff</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="grey_topbar">#d3d3d3</color>
+    <color name="elephant_color">#484848</color>
+    <color name="grey">#c3c3c3</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="catgreen">#30820c</color>
+
+    <color name="new_top_bar">#f3f3f3</color>
+    <color name="app_background">#e1e1e1</color>
+    <color name="top_divider">#9d9d9d</color>
+    <color name="rr_color">#cccccc</color>
+
+
+    <color name="transpar">#00d3d3d3</color>
+
+
+
+
+
+</resources>

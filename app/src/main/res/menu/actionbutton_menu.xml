@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/information"
+        android:icon="@drawable/ic_info2_name"
+        android:title="Listele"
+        ></item>
+
+    <item android:id="@+id/sharewithfb"
+        android:icon="@drawable/ic_facebook_logo"
+        android:title="Paylaş"
+        ></item>
+
+</menu>

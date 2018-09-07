@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "821660210321",
+    "firebase_url": "https://fotorat-b00c8.firebaseio.com",
+    "project_id": "fotorat-b00c8",
+    "storage_bucket": "fotorat-b00c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821660210321:android:1f1ba441b73a5589",
+        "android_client_info": {
+          "package_name": "com.example.fince.fotogratbitirme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821660210321-da1djqirvuj2ate69scqqb5p566iht8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fince.fotogratbitirme",
+            "certificate_hash": "bcb7804f7c430c84c8853daa2185657f789a47f6"
+          }
+        },
+        {
+          "client_id": "821660210321-2jib73ktdspt40sp4m38dsd6vjdcmqr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOGC7TMQFOHRO1SuJRmfB-iKFxlVM5eAs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821660210321-2jib73ktdspt40sp4m38dsd6vjdcmqr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

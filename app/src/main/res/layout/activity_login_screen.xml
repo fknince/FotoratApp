@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fince.fotogratbitirme.loginScreen">
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/backgroundlogin"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:id="@+id/loginBackground"/>-->
+
+    <ImageView
+        android:id="@+id/formLogo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginBottom="60dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/scrollView"
+
+        android:layout_below="@id/formLogo">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rectangle"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="30dp"
+            >
+
+
+            <AutoCompleteTextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Email"
+                android:background="@drawable/rounded_white"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:drawableLeft="@drawable/user"
+                android:textSize="20sp"
+                android:textColor="#bcb1b1"
+                android:textColorHint="#bcb1b1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:drawablePadding="10dp"
+
+                android:id="@+id/userEmail"
+                android:layout_marginBottom="10dp"
+                android:textCursorDrawable="@drawable/cursor_color"
+
+               />
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:hint="Şifre"
+                android:background="@drawable/rounded_white"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:drawableLeft="@drawable/password"
+                android:textSize="20sp"
+                android:textColor="#bcb1b1"
+                android:textColorHint="#bcb1b1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:id="@+id/userPasswoord"
+                android:textCursorDrawable="@drawable/cursor_color"
+
+                />
+
+            <Button
+                android:id="@+id/girisButton"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/register_button"
+                android:fontFamily="@font/acloni"
+                android:onClick="girisBasildi"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Giriş"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Şifremi unuttum"
+                android:fontFamily="@font/lobster"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="center"
+
+                android:id="@+id/sifremiUnuttumBtn"
+                android:onClick="sifremiUnuttum"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/login_button"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Yoksa hala üye değil misin?"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/lobster"
+                    android:id="@+id/uyeOl"
+                    />
+
+                <Button
+                    android:id="@+id/uyeolButton"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+
+                    android:background="?android:attr/selectableItemBackground"
+                    android:fontFamily="@font/lobster"
+                    android:onClick="uyeOlBasildi"
+                    android:text="Üye Ol"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        
+    </ScrollView>
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/login_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/scrollView"/>
+
+
+
+
+
+</RelativeLayout>
